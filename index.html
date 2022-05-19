@@ -11,9 +11,26 @@
   <body>
       <div class="container">
           <div class="left">
-              <img src="img/travel.jpg" alt="A photograph of a young person riding a skateboard in front of some scenic mountains">
+              <img id="travel-img" src="img/travel.jpg" alt="A photograph of a young person riding a skateboard in front of some scenic mountains">
           </div>
-          <div class="right"></div>
+          <div class="right">
+              <div class="form-container">
+                <h1>Discover New Destinations!</h1>
+                <form class="form" action="" method="post">
+                    <label>First Name</label>
+                    <input type="text" max="35" required><br><br>
+                    <label>Last Name</label>
+                    <input type="text" max="35" required><br><br>
+                    <label>Email</label>
+                    <input type="email" max="254" required><br><br>
+                    <label>Password</label>
+                    <input type="password" min="8" required><br><br>
+                    <label>Confirm Password</label>
+                    <input type="password" min="8" required><br><br>
+                    <button type="submit">Sign Up!</button>
+                </form>
+              </div>
+          </div>
       </div>
   </body>
 </html>

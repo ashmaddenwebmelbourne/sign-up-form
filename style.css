@@ -1,0 +1,22 @@
+:root{
+    --main-text-color: ;
+    --secondary-text-color: ;
+    --background-color: ;
+    --link-color: ;
+    --button-color: ;
+}
+
+.container{
+height: 100vh;
+width: 100vw;
+}
+
+.left{
+height: 100vh;
+width: 50vw;
+object-fit: contain;
+}
+
+.right{
+
+}

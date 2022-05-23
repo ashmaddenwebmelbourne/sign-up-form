@@ -1,40 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="left">
-        <img
-          id="travel-img"
-          src="img/travel.jpg"
-          alt="A photograph of a young person riding a skateboard in front of some scenic mountains"
-        />
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="img/rocket.svg" />
+      <title>Travel Sign Up Page</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+         rel="stylesheet"
+         />
+   </head>
+   <body>
+      <div class="container">
+         <div class="left">
+            <img src="img/tropical.svg" />
+         </div>
+         <div class="right">
+            <div class="form-container">
+               <h1 class="title">Discover New Destinations!</h1>
+               <form class="form">
+                  <label>First Name</label>
+                  <input class="form-margin" type="text" max="35" required /><br />
+                  <label>Last Name</label>
+                  <input class="form-margin" type="text" max="35" required /><br />
+                  <label>Email</label>
+                  <input class="form-margin" type="email" max="254" required /><br />
+                  <label>Password</label>
+                  <input class="form-margin" type="password" min="8" required /><br />
+                  <label>Confirm Password</label>
+                  <input class="form-margin" type="password" min="8" required /><br />
+                  <div class="checkbox-class">
+                     <input
+                        type="checkbox"
+                        id="form-check"
+                        name="form_check"
+                        value="agree"
+                        required
+                        />
+                     <label class="form-margin" for="form-check">
+                     I Agree to the <a href="#">Terms & Conditions</a></label
+                        ><br />
+                  </div>
+                  <button
+                     style="margin-top: 20px;"
+                     class="form-button form-margin"
+                     type="submit"
+                     >
+                  Sign Up!
+                  </button>
+                  <div class="social-icons-class">
+                     <button
+                        style="margin-top: 20px;"
+                        class="form-button2"
+                        type="button"
+                        >
+                     <img class="social-icons" src="img/facebook.svg" />
+                     </button>
+                     <button
+                        style="margin-top: 20px;"
+                        class="form-button2"
+                        type="button"
+                        >
+                     <img class="social-icons" src="img/google.svg" />
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
       </div>
-      <div class="right">
-        <div class="form-container">
-          <h1 class="title">Discover New Destinations!</h1>
-          <form class="form">
-            <label>First Name</label>
-            <input type="text" max="35" required /><br /><br />
-            <label>Last Name</label>
-            <input type="text" max="35" required /><br /><br />
-            <label>Email</label>
-            <input type="email" max="254" required /><br /><br />
-            <label>Password</label>
-            <input type="password" min="8" required /><br /><br />
-            <label>Confirm Password</label>
-            <input type="password" min="8" required /><br /><br />
-            <button class="form-button" type="submit">Sign Up!</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </body>
+   </body>
 </html>
